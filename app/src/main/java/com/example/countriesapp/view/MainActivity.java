@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
         countriesList.setLayoutManager(new LinearLayoutManager(this));
         countriesList.setAdapter(adapter);
 
+        //for the SwipeRefreshLayout
+        swipeRefreshLayout.setOnRefreshListener(() -> {
+            viewModel.refresh();
+            swipeRefreshLayout.setRefreshing(false);
+        });
+
         observeViewModel();
     }
 
