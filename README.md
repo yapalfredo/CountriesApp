@@ -1,7 +1,7 @@
 # CountriesApp
 Modern Android app using Java, MVVM, Dagger2, RxJava & more (Course Repo)
 
-This app was created from following the course I bought from Udemy.
+This app was created from following a course I bought from Udemy.
 
 # Implemented Features
 - MVVM Architecture
