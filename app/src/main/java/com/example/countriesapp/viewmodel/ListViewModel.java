@@ -56,7 +56,7 @@ public class ListViewModel extends ViewModel {
                             @Override
                             public void onError(Throwable e) {
                                 countryLoadError.setValue(true);
-                                loading.setValue(true);
+                                loading.setValue(false);
                                 e.printStackTrace();
                             }
                         })
